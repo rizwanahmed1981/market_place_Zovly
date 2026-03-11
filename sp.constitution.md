@@ -2,7 +2,7 @@
 
 ## PROJECT IDENTITY
 
-**Project Name:** NearMart (or placeholder: `NEARMART_APP`)
+**Project Name:** Zovly (or placeholder: `Zovly_APP`)
 **Type:** Hyperlocal eCommerce mobile + backend platform
 **Primary Market:** South Asian urban/semi-urban markets (Pakistan-first)
 **Core Philosophy:** Physical proximity commerce — buyers and sellers who are geographically close transact with zero platform fees, default pickup, and optional delivery at their own risk.
@@ -12,7 +12,7 @@
 ## SYSTEM ARCHITECTURE OVERVIEW
 
 ```
-NEARMART/
+Zovly/
 ├── backend/                  # FastAPI Python monolith (Phase 1)
 │   ├── app/
 │   │   ├── api/              # Route handlers (versioned: /api/v1/)
@@ -95,7 +95,7 @@ Claude CLI must have these MCP servers installed and configured in the project:
     },
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/NEARMART"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/Zovly"]
     },
     "redis": {
       "command": "npx",
@@ -216,7 +216,7 @@ Report            → reporter_id, target_type, target_id, reason, status
 - Buyer token ≠ Seller token (different scopes in JWT payload)
 - All geo endpoints accept: `lat`, `lng`, `radius_km` query params
 - Pagination: cursor-based (not offset) for product/shop lists
-- WebSocket endpoint: `wss://api.nearmart.com/ws/chat/{room_id}?token={jwt}`
+- WebSocket endpoint: `wss://api.Zovly.com/ws/chat/{room_id}?token={jwt}`
 - All responses follow envelope: `{ success, data, error, meta }`
 - Rate limiting: 100 req/min per IP, 10 req/min for OTP endpoints
 

@@ -1,8 +1,8 @@
-# sp.specification — NearMart Hyperlocal eCommerce Platform
+# sp.specification — Zovly Hyperlocal eCommerce Platform
 
 ## INSTRUCTION TO CLAUDE CLI
 
-You are building NearMart — a hyperlocal eCommerce platform in Python (FastAPI backend) + Flutter (mobile). The constitution defines architecture, tech stack, business rules, and MCP servers. This specification defines every feature as a buildable task. Build one module at a time. Do not skip steps. Do not invent features not listed here.
+You are building Zovly — a hyperlocal eCommerce platform in Python (FastAPI backend) + Flutter (mobile). The constitution defines architecture, tech stack, business rules, and MCP servers. This specification defines every feature as a buildable task. Build one module at a time. Do not skip steps. Do not invent features not listed here.
 
 ---
 
@@ -79,8 +79,8 @@ SECRET_KEY=
 ALLOWED_ORIGINS=http://localhost:3000
 
 # Database
-DATABASE_URL=postgresql+asyncpg://user:pass@localhost:5432/nearmart
-DATABASE_URL_SYNC=postgresql://user:pass@localhost:5432/nearmart
+DATABASE_URL=postgresql+asyncpg://user:pass@localhost:5432/Zovly
+DATABASE_URL_SYNC=postgresql://user:pass@localhost:5432/Zovly
 
 # Redis
 REDIS_URL=redis://localhost:6379/0
