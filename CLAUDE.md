@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.11+ (FastAPI backend) + FastAPI, SQLAlchemy 2.0, PostgreSQL 15 with PostGIS, Redis 7, ARQ, Firebase Admin SDK, Cloudinary, Claude API (001-zovly-platform)
+- PostgreSQL 15 with PostGIS extension for geo-location queries (001-zovly-platform)
+
+## Recent Changes
+- 001-zovly-platform: Added Python 3.11+ (FastAPI backend) + FastAPI, SQLAlchemy 2.0, PostgreSQL 15 with PostGIS, Redis 7, ARQ, Firebase Admin SDK, Cloudinary, Claude API
